@@ -1,0 +1,15 @@
+(0:0) When everything is starting up,
+  (5:250) set message 1 to {Has Found The way here!!!}.
+  
+(0:9) When a furre arrives in the dream,
+ (1:600) and the PhoenixSpeak info {hello emote} about the triggering furre is equal to 1,
+    (5:252) set message 0 to the triggering furre's name.
+    (5:258) take message 0 and add message 1 onto the end of it.
+    (5:204) emitloud message 0 to everyone on the map.
+
+
+
+
+
+
+Also, having one trigger and a buttload of effect under it works just fine.
